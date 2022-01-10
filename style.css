@@ -88,11 +88,26 @@ button + button {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  gap: 1vh;
+  gap: 2.5vh;
   padding-top: 1.3vh;
-  padding-right: 18vh;
+  padding-right: 16vh;
   font-size: 1.1vh;
   padding-left: 2vh;
+}
+
+.selecao_opcao_matches {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.2vh;
+}
+
+.underline {
+  width: 10.5vh;
+  height: 0.4vh;
+  border-radius: 0.5vh;
+  background-color: red;
+  display: inline-block;
 }
 
 .alinhamento_retangulo_texto {
@@ -170,10 +185,17 @@ button + button {
 .nome_idade {
   display: flex;
   flex-direction: row;
+  align-items: center;
   width: 40vh;
   line-height: 0;
   font-size: 2vh;
   padding-left: 2vh;
+}
+
+.nome_idade img {
+  width: 2.5vh;
+  height: 2.5vh;
+  padding-left: 1vh;
 }
 
 .nome_idade h2 {
@@ -192,7 +214,7 @@ button + button {
   display: flex;
   flex-direction: column;
   padding-bottom: 1vh;
-  padding-top: 3vh;
+  padding-top: 2vh;
   padding-left: 2vh;
 }
 
